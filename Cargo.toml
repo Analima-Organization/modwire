@@ -1,14 +1,15 @@
-package.name = "modwire"
-package.description = "Tools for module organisation."
-package.keywords = [
-    "mod",
-    "module",
+[package]
+name = "modwire"
+description = "Tools for module organisation."
+keywords = [
     "organisation",
-    "macro"
+    "module",
+    "macro",
+    "flatten"
 ]
-package.version = "0.1.0"
-package.edition = "2024"
-package.readme = "readme.md"
-package.license = "Apache-2.0"
-package.repository = "https://github.com/unsudo-foundation/modwire"
-package.publish = true
+version = "0.1.0"
+edition = "2024"
+readme = "readme.md"
+license = "Apache-2.0"
+repository = "/" # waiting for the repository to be renamed
+publish = true

@@ -1,3 +1,9 @@
+# modwire
+```toml
+[dependencies]
+modwire = { version = "*" }
+```
+
 # Tools for module organisation.
 ###### Example: `expose!`
 ```rust
